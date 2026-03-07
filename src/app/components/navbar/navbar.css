@@ -1,0 +1,86 @@
+/*.navbar {
+  background: #1c1c1c;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.links a {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #f3f3f3;
+}
+
+.links a:hover {
+  color: #c96f2d;
+}
+*/
+.hero-header {
+  position: relative;
+  height: 260px;
+  background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.4)
+  );
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-content {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  color: #fff;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #ff9800;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+  width: 100%;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

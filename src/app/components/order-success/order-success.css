@@ -1,0 +1,19 @@
+.success-container{
+text-align:center;
+margin-top:80px;
+}
+
+.success-container h1{
+color:green;
+font-size:36px;
+}
+
+.success-container button{
+margin-top:20px;
+padding:12px 25px;
+background:#e67e22;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}

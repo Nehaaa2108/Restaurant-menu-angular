@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "price": 250,
+    "category": "Fast Food",
+    "image": "https://www.foodandwine.com/thmb/iJw7N_NfcPpd-EB8rpYbzrkSFIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tomato-mozzarella-pizza-FT-RECIPE0725-e7244e979c504188a049623668c15b2e.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "price": 150,
+    "category": "Fast Food",
+    "image": "https://cdn.uengage.io/uploads/29124/image-1325-1772037715.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Pasta",
+    "price": 200,
+    "category": "Fast Food",
+    "image": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb"
+  },
+  {
+    "id": 4,
+    "name": "French Fries",
+    "price": 100,
+    "category": "Fast Food",
+    "image": "https://static.toiimg.com/photo/54659021.cms"
+  },
+
+  {
+    "id": 5,
+    "name": "Chicken Wings",
+    "price": 220,
+    "category": "Starters",
+    "image": "https://kikifoodies.com/wp-content/uploads/2025/02/ET5B3839.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Paneer Tikka",
+    "price": 240,
+    "category": "Starters",
+    "image": "https://spicecravings.com/wp-content/uploads/2020/10/Paneer-Tikka-Featured-1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Veg Salad",
+    "price": 120,
+    "category": "Starters",
+    "image": "https://simple-veganista.com/wp-content/uploads/2012/09/healthy-chopped-vegetable-salad-recipe-4.jpg"
+  },
+
+  {
+    "id": 8,
+    "name": "Chicken Biryani",
+    "price": 300,
+    "category": "Main Course",
+    "image": "https://ministryofcurry.com/wp-content/uploads/2024/06/chicken-biryani-5.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fried Rice",
+    "price": 180,
+    "category": "Main Course",
+    "image": "https://www.sharmispassions.com/wp-content/uploads/2013/04/EggFriedRice4-500x500.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Masala Dosa",
+    "price": 140,
+    "category": "Main Course",
+    "image": "https://myfoodstory.com/wp-content/uploads/2025/08/Mysore-Masala-Dosa-Recipe-3.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": "Chocolate Cake",
+    "price": 160,
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+  },
+  {
+    "id": 12,
+    "name": "Ice Cream",
+    "price": 90,
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb"
+  },
+
+  {
+    "id": 13,
+    "name": "Cold Coffee",
+    "price": 120,
+    "category": "Drinks",
+    "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
+  },
+  {
+    "id": 14,
+    "name": "Lemon Juice",
+    "price": 80,
+    "category": "Drinks",
+    "image": "https://m.media-amazon.com/images/I/61EOq8-7UhL.jpg"
+  }
+
+  ,
+{
+  "id": 15,
+  "name": "Garlic Bread",
+  "price": 110,
+  "category": "Starters",
+  "image": "https://static.toiimg.com/thumb/52602205.cms?imgsize=264487&width=800&height=800"
+},
+{
+  "id": 16,
+  "name": "Tacos",
+  "price": 280,
+  "category": "Main Course",
+  "image": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg"
+},
+{
+  "id": 17,
+  "name": "Veg Noodles",
+  "price": 170,
+  "category": "Main Course",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8QmnRyLKIOqyKHyqsjGr8DPltNiWrYMDGlA&s"
+},
+{
+  "id": 18,
+  "name": "Mango Lassi",
+  "price": 130,
+  "category": "Drinks",
+  "image": "https://tastyoven.com/wp-content/uploads/2022/06/mango-shake-image.jpeg"
+}
+]

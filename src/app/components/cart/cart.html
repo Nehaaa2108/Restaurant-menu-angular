@@ -1,0 +1,33 @@
+<h2>Your Cart</h2>
+
+<div *ngIf="cartService.getItems().length === 0">
+  <p>Your cart is empty.</p>
+</div>
+
+
+<div *ngFor="let item of cartService.getItems()" class="cart-item">
+
+  <h3>{{item.name}}</h3>
+
+  <p>{{item.price | currency:'INR'}}</p>
+
+  <div class="quantity-controls">
+    <button (click)="cartService.decreaseQuantity(item)">−</button>
+
+    <span>{{item.quantity}}</span>
+
+    <button (click)="cartService.increaseQuantity(item)">+</button>
+  </div>
+
+  <div class="remove-btn">
+    <button (click)="removeItem(item)">Remove</button>
+  </div>
+
+
+
+</div>
+
+<h2>Total: ₹{{cartService.getTotal()}}</h2>
+<button routerLink="/checkout" class="checkout-btn">
+  Proceed to Checkout
+</button>

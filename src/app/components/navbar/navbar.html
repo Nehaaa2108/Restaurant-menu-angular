@@ -1,0 +1,27 @@
+<header class="hero-header">
+  <div class="overlay">
+    <div class="nav-content">
+      <h1 class="logo">Restaurant Menu</h1>
+
+      <nav class="nav-links">
+        <a routerLink="/menu" routerLinkActive="active">Menu</a>
+        <a routerLink="/cart" routerLinkActive="active">
+Cart ({{cartService.getCount()}})
+</a>
+        <a routerLink="/checkout" routerLinkActive="active">Checkout</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Curved bottom -->
+  <svg
+    class="wave"
+    viewBox="0 0 1440 90"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill="#f6efe8"
+      d="M0,40 C120,80 320,0 560,20 800,40 1040,80 1440,20 L1440,0 L0,0 Z"
+    ></path>
+  </svg>
+</header>

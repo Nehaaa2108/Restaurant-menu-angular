@@ -1,0 +1,33 @@
+.checkout-container{
+width:500px;
+margin:auto;
+padding:30px;
+background:white;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea, select{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+background:#e67e22;
+color:white;
+padding:10px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#d35400;
+}
